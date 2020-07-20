@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: SiteLinks
+Version: 0.0.7
+Summary: A link-scanning tool to scrape web urls.
+Home-page: https://github.com/EllyMandliel/SiteLinks
+Author: Elly Mandliel
+Author-email: ellykido@google.com
+License: UNKNOWN
+Description: # SiteLinks
+        This is a small project intended to allow scraping all the the links off a website, mostly useful for CTFs.
+        <!--
+        ## Installaion
+        ```shell script
+        $ python3 -m pip install 
+        ```
+        -->
+        ## Usage:
+        
+        To use the script simply run:
+        ```
+        $ python -m SiteLinks [--depth] [-s] [-o] hostname
+        ```
+        #### Flags:
+        + -s - Include search status (Significantly longer run)
+        + -o - Include outside link
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
